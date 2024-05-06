@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+      .material-symbols-outlined {
+        font-variation-settings:
+        'FILL' 0,
+        'wght' 300,
+        'GRAD' 0,
+        'opsz' 20
+      }
+    </style>
+  </head>
+  <body style="width:200px;">
+    <h1>Which SSO</h1>
+    <form id="new-sso-form">
+      <h2>Enter a new login</h2>
+      <label for="sso-provider">SSO Provider</label>
+      <br />
+      <select name="sso-provider" id="sso-provider">
+      </select>
+      <br />
+      <br />
+      <div id="new-provider-div" hidden="true">
+        <label for="new-provider">New SSO Provider</label>
+        <br />
+        <input type="text" name="new-provider" id="new-provider">
+        <br />
+        <br />
+      </div>
+      <label for="site">Site</label>
+      <br />
+      <input type="text" name="site" id="site">
+      <br />
+      <br />
+      <button id="save">Save</button>
+    </form>
+    <h2>Existing logins</h2>
+    <div id="logins">
+    </div>
+    <h2>Existing providers</h2>
+    <div id="providers">
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

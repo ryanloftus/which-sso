@@ -1,0 +1,11 @@
+{
+    "manifest_version": 3,
+    "name": "Which SSO",
+    "description": "Extension that reminds you which SSO you used.",
+    "version": "1.0",
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.jpeg"
+    }
+}
